@@ -1,0 +1,96 @@
+.container {
+    margin: auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    height: 500px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: whitesmoke;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+body {
+    height: 100%;
+    padding: 100px 20px 20px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/290/049/non_2x/night-mountain-landscape-vector.jpg');
+    /*background-image: linear-gradient(grey, lightgrey, whitesmoke);*/
+    /*background-image: url('https://i.stack.imgur.com/SvWWN.png');*/
+    /*background-image: url('https://wallpaperaccess.com/full/4893749.jpg');*/}
+p {
+    color: whitesmoke;
+}
+form {
+    display: block;
+    margin: 100px 100px 50px 100px;
+}
+.button-17:not(:disabled) {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+button:hover {
+    background-color: whitesmoke;
+}
+.button-17 {
+    align-items: center;
+    appearance: none;
+    background-color: gainsboro;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform,opacity;
+    z-index: 0;
+}
+
+#id_username {
+    background-color: gainsboro;
+    border-radius: 15px;
+    border: 1px solid whitesmoke;
+    height: 20px;
+}
+#id_password {
+    background-color: gainsboro;
+    border-radius: 15px;
+    border: 1px solid whitesmoke;
+    height: 20px;
+}
+
+form {
+    font-size: 20px !important;
+}
